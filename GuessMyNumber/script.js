@@ -2,9 +2,7 @@
 let number=Math.trunc((Math.random()*20));
 let score=20
 console.log(number)
-localStorage.setItem("high","0")
 document.getElementById("highestScore").innerHTML=`Highest score ${localStorage.getItem("high")}`
-// document.getElementById("score").innerHTML=`score: ${score}`
 
 function check(){
     document.getElementById("score").innerHTML=`score: ${score}`
@@ -18,6 +16,8 @@ function check(){
     {document.body.style.backgroundColor="green";
     document.getElementById("score").innerHTML=`score: ${score}`;
     document.getElementById("text").innerHTML="That's right,boy🔥🔥"
+    if(score> Number(localStorage.getItem("high")))
+    
     localStorage.setItem("high",String(score))
     document.getElementById("highestScore").innerHTML=`Highest score ${localStorage.getItem("high")}`
 
