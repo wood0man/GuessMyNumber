@@ -1,0 +1,67 @@
+@import url("https://fonts.cdnfonts.com/css/syn-nova");
+
+body {
+  font-size: xx-large;
+  font-family: "SYN Nova", sans-serif;
+
+  background-color: dimgray;
+}
+
+.againBtn {
+  color: black;
+  font-family: "SYN Nova", sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.408);
+  margin-left: 300px;
+  margin-top: 150px;
+}
+.submitBtn {
+  color: black;
+  font-family: "SYN Nova", sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  float: left;
+  background-color: rgba(255, 255, 255, 0.408);
+  margin-left: 300px;
+}
+.between {
+  float: inline-end;
+  margin-top: 150px;
+  margin-right: 100px;
+}
+.title {
+  /* margin-left: 700px; */
+  text-align: center;
+}
+
+.questionMark {
+  background-color: rgba(255, 255, 255, 0.408);
+  margin-left: 40%;
+  margin-right: 40%;
+  font-size: 150px;
+  text-align: center;
+  border-radius: 500px;
+}
+#text {
+  text-align: left;
+  margin-left: 300px;
+  font-size: xx-large;
+}
+#highestScore {
+  text-align: end;
+  margin-right: 360px;
+}
+#score {
+  text-align: end;
+  margin-right: 420px;
+}
+
+#inputBox {
+  margin-left: 300px;
+  background-color: dimgray;
+  border-color: white;
+  height: 150px;
+  width: 150px;
+}
