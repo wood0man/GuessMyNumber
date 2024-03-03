@@ -1,5 +1,5 @@
 "use strict"
-let number=Math.trunc((Math.random()*20));
+let number=Math.trunc((Math.random()*20))+1;
 let score=20
 console.log(number)
 document.getElementById("highestScore").innerHTML=`Highest score ${localStorage.getItem("high")}`
